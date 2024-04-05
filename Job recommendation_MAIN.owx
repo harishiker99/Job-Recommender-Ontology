@@ -1,0 +1,701 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/moham/ontologies/2024/2/untitled-ontology-18"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/moham/ontologies/2024/2/untitled-ontology-18">
+    <Prefix name="" IRI="http://www.semanticweb.org/moham/ontologies/2024/2/untitled-ontology-18/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Education"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experience_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Industry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#banking_officer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#civil_engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#data_scientist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#database_engineer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dentist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#engineering_and_IT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#finance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#financial_planner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#full_stack_developer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#health_care"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#industry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#investment_analyst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mechanical_engineerin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nurse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#residence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#user"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#veterinarian"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExperience"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrefrences"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIndustry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLocated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jobCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preferredIndustry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preferredLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preferredTitle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#qualifications"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresExperience"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEducation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSkills"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#requiresEducation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#requiresSkills"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CAD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Digital_modelling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Machine_learning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PhD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#animal_care_and_handling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#asset_mangement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bachelors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cash_handling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chemical_engineer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clinicalskills"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#construction_management"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#css"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#data_analysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dbms"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dental_procedures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#diagnostic_procedure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#entry_level"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#financial_modelling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fluid_mechanics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#geotehnical_engineering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#high_school"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#html"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#intermediate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#masters"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#material_science"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mechanical_design"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#montreal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ottawa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient_care"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pharmacology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#portfolio_mangement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#programming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sales_skills"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#senior"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#surgical_techniques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tax_planning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thermodynamics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#toronto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vancouver"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Education"/>
+        <Class IRI="#user"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experience"/>
+        <Class IRI="#user"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Industry"/>
+        <Class IRI="#user"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="#user"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skills"/>
+        <Class IRI="#user"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title"/>
+        <Class IRI="#user"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#banking_officer"/>
+        <Class IRI="#finance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#civil_engineering"/>
+        <Class IRI="#engineering_and_IT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#data_scientist"/>
+        <Class IRI="#engineering_and_IT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#database_engineer"/>
+        <Class IRI="#engineering_and_IT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dentist"/>
+        <Class IRI="#health_care"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#engineering_and_IT"/>
+        <Class IRI="#industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#finance"/>
+        <Class IRI="#industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#financial_planner"/>
+        <Class IRI="#finance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#full_stack_developer"/>
+        <Class IRI="#engineering_and_IT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#health_care"/>
+        <Class IRI="#industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#investment_analyst"/>
+        <Class IRI="#finance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mechanical_engineerin"/>
+        <Class IRI="#engineering_and_IT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nurse"/>
+        <Class IRI="#health_care"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#residence"/>
+        <Class IRI="#user"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#veterinarian"/>
+        <Class IRI="#health_care"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Experience_level"/>
+        <NamedIndividual IRI="#entry_level"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Experience_level"/>
+        <NamedIndividual IRI="#intermediate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#location"/>
+        <NamedIndividual IRI="#montreal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#location"/>
+        <NamedIndividual IRI="#ottawa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Experience_level"/>
+        <NamedIndividual IRI="#senior"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#location"/>
+        <NamedIndividual IRI="#toronto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#location"/>
+        <NamedIndividual IRI="#vancouver"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasExperience"/>
+        <ObjectProperty IRI="#qualifications"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isIndustry"/>
+        <ObjectProperty IRI="#jobCategory"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isLocated"/>
+        <ObjectProperty IRI="#jobCategory"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#preferredIndustry"/>
+        <ObjectProperty IRI="#hasPrefrences"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#preferredLocation"/>
+        <ObjectProperty IRI="#hasPrefrences"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#preferredTitle"/>
+        <ObjectProperty IRI="#hasPrefrences"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresExperience"/>
+        <ObjectProperty IRI="#jobCategory"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExperience"/>
+        <Class IRI="#Experience"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndustry"/>
+        <Class IRI="#engineering_and_IT"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndustry"/>
+        <Class IRI="#finance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndustry"/>
+        <Class IRI="#health_care"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocated"/>
+        <Class IRI="#banking_officer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocated"/>
+        <Class IRI="#civil_engineering"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocated"/>
+        <Class IRI="#data_scientist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocated"/>
+        <Class IRI="#database_engineer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocated"/>
+        <Class IRI="#dentist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocated"/>
+        <Class IRI="#financial_planner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocated"/>
+        <Class IRI="#full_stack_developer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocated"/>
+        <Class IRI="#investment_analyst"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocated"/>
+        <Class IRI="#mechanical_engineerin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocated"/>
+        <Class IRI="#nurse"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocated"/>
+        <Class IRI="#veterinarian"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preferredIndustry"/>
+        <Class IRI="#Industry"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preferredLocation"/>
+        <Class IRI="#residence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preferredTitle"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresExperience"/>
+        <Class IRI="#banking_officer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresExperience"/>
+        <Class IRI="#civil_engineering"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresExperience"/>
+        <Class IRI="#data_scientist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresExperience"/>
+        <Class IRI="#database_engineer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresExperience"/>
+        <Class IRI="#dentist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresExperience"/>
+        <Class IRI="#financial_planner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresExperience"/>
+        <Class IRI="#full_stack_developer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresExperience"/>
+        <Class IRI="#investment_analyst"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresExperience"/>
+        <Class IRI="#mechanical_engineerin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresExperience"/>
+        <Class IRI="#nurse"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresExperience"/>
+        <Class IRI="#veterinarian"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasExperience"/>
+        <Class IRI="#Experience_level"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIndustry"/>
+        <Class IRI="#industry"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLocated"/>
+        <Class IRI="#location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredIndustry"/>
+        <Class IRI="#engineering_and_IT"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredIndustry"/>
+        <Class IRI="#finance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredIndustry"/>
+        <Class IRI="#health_care"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredLocation"/>
+        <Class IRI="#location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredTitle"/>
+        <Class IRI="#banking_officer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredTitle"/>
+        <Class IRI="#civil_engineering"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredTitle"/>
+        <Class IRI="#data_scientist"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredTitle"/>
+        <Class IRI="#database_engineer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredTitle"/>
+        <Class IRI="#dentist"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredTitle"/>
+        <Class IRI="#financial_planner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredTitle"/>
+        <Class IRI="#full_stack_developer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredTitle"/>
+        <Class IRI="#investment_analyst"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredTitle"/>
+        <Class IRI="#mechanical_engineerin"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredTitle"/>
+        <Class IRI="#nurse"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredTitle"/>
+        <Class IRI="#veterinarian"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresExperience"/>
+        <Class IRI="#Experience_level"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEducation"/>
+        <Class IRI="#Education"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSkills"/>
+        <Class IRI="#Skills"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresEducation"/>
+        <Class IRI="#banking_officer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresEducation"/>
+        <Class IRI="#civil_engineering"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresEducation"/>
+        <Class IRI="#data_scientist"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresEducation"/>
+        <Class IRI="#database_engineer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresEducation"/>
+        <Class IRI="#dentist"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresEducation"/>
+        <Class IRI="#financial_planner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresEducation"/>
+        <Class IRI="#full_stack_developer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresEducation"/>
+        <Class IRI="#investment_analyst"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresEducation"/>
+        <Class IRI="#mechanical_engineerin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresEducation"/>
+        <Class IRI="#nurse"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresEducation"/>
+        <Class IRI="#veterinarian"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresSkills"/>
+        <Class IRI="#banking_officer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresSkills"/>
+        <Class IRI="#civil_engineering"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresSkills"/>
+        <Class IRI="#data_scientist"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresSkills"/>
+        <Class IRI="#database_engineer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresSkills"/>
+        <Class IRI="#dentist"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresSkills"/>
+        <Class IRI="#financial_planner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresSkills"/>
+        <Class IRI="#full_stack_developer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresSkills"/>
+        <Class IRI="#investment_analyst"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresSkills"/>
+        <Class IRI="#mechanical_engineerin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresSkills"/>
+        <Class IRI="#nurse"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresSkills"/>
+        <Class IRI="#veterinarian"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEducation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSkills"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#requiresEducation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#requiresSkills"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
